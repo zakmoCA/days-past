@@ -8,9 +8,9 @@ import LifetimeCalendar from './pages/LifetimeCalendar'
 const App = () => {
   return (
     <Router>
-      <div className="min-h-screen bg-gray-50 flex-row">
-      <main className="container mx-auto px-4 py-8">
-      <Navigation />
+      <div className="min-h-screen bg-gray-50">
+        <Navigation />
+        <main className="mx-auto">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/calendar" element={<Calendar />} />
