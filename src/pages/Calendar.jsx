@@ -12,7 +12,7 @@ const Calendar = () => {
   const daysPassed = Math.floor((now - startOfYear) / (24 * 60 * 60 * 1000))
   
   // Constants for layout
-  const DAYS_PER_ROW = 5
+  const DAYS_PER_ROW = 10
   const ROWS_PER_COLUMN = 16
   const DAYS_PER_COLUMN = DAYS_PER_ROW * ROWS_PER_COLUMN
   

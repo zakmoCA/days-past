@@ -7,6 +7,7 @@ const Navigation = () => {
   const navItems = [
     { path: '/', label: 'Home' },
     { path: '/calendar', label: 'Calendar' },
+    { path: '/lifetimecalendar', label: 'Lifetime Calendar' },
   ]
 
   return (

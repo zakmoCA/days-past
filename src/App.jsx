@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navigation from './components/Layout/Navigation'
 import Home from './pages/Home'
 import Calendar from './pages/Calendar'
+import LifetimeCalendar from './pages/LifetimeCalendar'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/calendar" element={<Calendar />} />
+            <Route path="/lifetimecalendar" element={<LifetimeCalendar />} />
           </Routes>
         </main>
       </div>
